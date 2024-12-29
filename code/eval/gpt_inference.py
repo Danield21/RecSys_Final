@@ -51,8 +51,8 @@ data = "data/steam/steam_oneturn_ranking_data_100.jsonl"
 eval_data = read_jsonl(data)[2:]
 
 
-openai.api_base = "https://api2.aigcbest.top/v1"
-openai.api_key = 'sk-w2M4TdMryKNtld6cF34021B78a604d25988d60E86aEd739f'
+openai.api_base = ""
+openai.api_key = ''
 
 with open(save_path, 'a') as fw:
     for instance in eval_data:
